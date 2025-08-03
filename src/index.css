@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scroll suave para todo el sitio */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Para evitar que los elementos de anclaje queden debajo del navbar */
+html {
+  scroll-padding-top: 80px; /* Debe ser igual o mayor a la altura del navbar */
+}
+
+/* Estilos para la transición del scroll */
+a {
+  transition: color 0.3s;
+}
+
+/* Animaciones y transiciones */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.section-fade-in {
+  animation: fadeIn 0.8s ease;
+}
+
+/* Personalización adicional */
+::selection {
+  background-color: #000;
+  color: #fff;
+}
