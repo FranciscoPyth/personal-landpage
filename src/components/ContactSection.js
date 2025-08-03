@@ -67,7 +67,7 @@ const ContactSection = ({ language }) => {
     {
       icon: <Linkedin className="mr-2 group-hover:text-gray-600" size={20} />,
       text: 'LinkedIn',
-      href: 'https://linkedin.com/in/francisco-saggiorato'
+      href: 'https://www.linkedin.com/in/francisco-saggiorato-912424245/'
     }
   ];
 
